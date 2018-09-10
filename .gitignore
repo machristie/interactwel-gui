@@ -1,0 +1,7 @@
+venv/
+.vscode
+interactwel_gui.egg-info
+dist
+build
+node_modules
+*.pyc

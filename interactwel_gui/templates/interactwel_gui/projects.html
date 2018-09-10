@@ -1,0 +1,19 @@
+{% extends './base.html' %}
+
+{% load static %}
+
+{% block css %}
+{{ block.super }}
+<link rel=stylesheet type=text/css href="{% static 'interactwel_gui/dist/projects.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<div id="projects"></div>
+
+{% endblock content %}
+
+{% block scripts %}
+{{ block.super }}
+<script src="{% static "interactwel_gui/dist/projects.js" %}"></script>
+{% endblock %}
