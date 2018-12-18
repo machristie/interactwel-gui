@@ -6,6 +6,6 @@ setuptools.setup(
     description="Django app for visualizing InterACTWEL simulations",
     packages=setuptools.find_packages(),
     install_requires=[
-        'django==1.11.3'
+        'django>=1.11.15'
     ]
 )
